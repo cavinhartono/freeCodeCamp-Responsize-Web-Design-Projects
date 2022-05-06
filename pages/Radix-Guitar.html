@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/Radix-Guitar.css">
+  <title>Document</title>
+</head>
+<body>
+  <section>
+    <header id="header">
+      <a href="#" class="logo" id="header-img"><img src="../img/Radix-Guitar/Logo-radix-web.png"></a>
+      <menu>
+        <span></span>
+        <span></span>
+        <span></span>
+      </menu>
+      <nav id="nav-bar">
+        <ul>
+          <li><a href="#" class="nav-link">Products</a></li>
+          <li><a href="#" class="nav-link">Contact</a></li>
+          <li><a href="#" class="nav-link">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="homeBx">
+      <div class="headerText">
+        <h1><span>Play</span><span>Confident,</span></h1>
+        <h1><span>Doubtlessly...</span></h1>
+      </div>
+      <div class="bgBx">
+        <img src="../img/Radix-Guitar/home1.jpg" class="background">
+      </div>
+    </div>
+    <div class="bannerBx">
+      <div class="contentBx">
+        <h1>Products</h1>
+        <div class="cardBx">
+          <div class="box" style="--guitarColor: #1C0204;">
+            <div class="imgBx">
+              <img src="../img/Radix-Guitar/Jarvis.png" class="guitar-img">
+            </div>
+            <div class="textBx">
+              <h1>Jarvis</h1>
+              <div class="colorBx">
+                <h2>Color:</h2>
+                <span style="--guitarsColor: #1C0204;"></span>
+                <span style="--guitarsColor: #4E9F96;"></span>
+                <span style="--guitarsColor: #4E1016;"></span>
+              </div>
+              <a href="#">Buy Now</a>
+            </div>
+          </div>
+          <div class="box" style="--guitarColor: #111;">
+            <div class="imgBx">
+              <img src="../img/Radix-Guitar/Ges.png" class="guitar-img">
+            </div>
+            <div class="textBx">
+              <h1>Ges</h1>
+              <div class="colorBx">
+                <h2>Color:</h2>
+                <span style="--guitarsColor: #111;"></span>
+                <span style="--guitarsColor: #9B0D11"></span>
+              </div>
+              <a href="#">Buy Now</a>
+            </div>
+          </div>
+          <div class="box" style="--guitarColor: #AD1716;">
+            <div class="imgBx">
+              <img src="../img/Radix-Guitar/Zetta.png" class="guitar-img">
+            </div>
+            <div class="textBx">
+              <h1>Zetta</h1>
+              <div class="colorBx">
+                <h2>Color:</h2>
+                <span style="--guitarsColor: #AD1716"></span>
+                <span style="--guitarsColor: #ddd"></span>
+                <span style="--guitarsColor: #111"></span>
+              </div>
+              <a href="#">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact">
+        <h1>Contact</h1>
+        <form id="form">
+          <input type="text" id="email" placeholder="Enter your email" required>
+          <textarea placeholder="Comment" style="resize: none;"></textarea>
+          <input type="submit" value="Submit" class="btn">
+        </form>
+      </div>
+      <div class="about">
+        <h1>About</h1>
+        <p>Guitars Indonesia founded on a solid ground of long experience in designs and production of the best Indonesian
+        guitars. Endless spirit to produce better guitars every moment is always at the heart of every Radix team. Respect to the beauty
+        and the tradition of a beautiful musical instrument called guitar and passion to continually create “The Best Indonesian
+        Guitar” is the biggest thing in every Radix team’s mind. We believe that we have to push ourselves far beyond our
+        limitations to proudly say that these guitars are “made in Indonesia”. We will never stop at the point probably called
+        as ‘perfection’...</p> <br>
+        <p>Piles of designs and prototypes, hundreds production methods, thousands professional gigs, and countless hours of
+        discussions taught us how to build this beautiful instrument. Radix in your hands could tell you a lot about all of
+        these endless spirit, passion, determination, love and care handed to it...</p> <br>
+        <p><b>Radix Guitars … Play Confident, Doubtlessly...</b></p>
+
+        <div id="video">
+          <video controls>
+            <source src="https://www.youtube.com/watch?v=DUH3H08-MXA" type="video/mp4">
+          </video>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <script>
+    var menu = document.querySelector('menu');
+    var nav = document.getElementById('nav-bar');
+
+    menu.onclick = function() {
+      nav.classList.toggle('aktif');
+      menu.classList.toggle('aktif');
+    }
+  </script>
+</body>
+</html>
